@@ -1,0 +1,9 @@
+[submodule "vim-config"]
+	path = vim-config
+	url = https://github.com/popstas/vim-config.git
+[submodule "zsh-config"]
+	path = zsh-config
+	url = https://github.com/popstas/zsh-config.git
+[submodule "sublime"]
+	path = sublime
+	url = https://github.com/popstas/sublime.git
