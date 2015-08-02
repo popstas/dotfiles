@@ -8,9 +8,9 @@ DEVPATH=hwmon0=devices/platform/coretemp.0 hwmon1=devices/platform/it87.656
 DEVNAME=hwmon0=coretemp hwmon1=it8728
 FCTEMPS=hwmon1/device/pwm2=hwmon0/device/temp1_input hwmon1/device/pwm1=hwmon0/device/temp1_input
 FCFANS=hwmon1/device/pwm2=hwmon1/device/fan2_input hwmon1/device/pwm1=hwmon1/device/fan2_input
-MINTEMP=hwmon1/device/pwm2=40 hwmon1/device/pwm1=40
-MAXTEMP=hwmon1/device/pwm2=70 hwmon1/device/pwm1=70
-MINSTART=hwmon1/device/pwm2=75 hwmon1/device/pwm1=75
-MINSTOP=hwmon1/device/pwm2=20 hwmon1/device/pwm1=20
-MINPWM=hwmon1/device/pwm2=20 hwmon1/device/pwm1=20
+MINTEMP=hwmon1/device/pwm2=46 hwmon1/device/pwm1=46
+MAXTEMP=hwmon1/device/pwm2=61 hwmon1/device/pwm1=78
+MINSTART=hwmon1/device/pwm2=150 hwmon1/device/pwm1=75
+MINSTOP=hwmon1/device/pwm2=150 hwmon1/device/pwm1=75
+MINPWM=hwmon1/device/pwm2=150 hwmon1/device/pwm1=75
 MAXPWM=hwmon1/device/pwm2=255 hwmon1/device/pwm1=255
